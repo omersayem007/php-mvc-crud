@@ -1,0 +1,17 @@
+<h1> Online Shop Management System </h1> <br>
+
+
+<script src="../js/validator.js"></script>
+
+<form  action="../../controller/regController.php" method="POST">
+    <fieldset>
+        <legend>Gender</legend>
+        name : <input type="text" name="name" value="" id="name"> <br>
+        contact no: <input type="text" name="contact" value="" id="contact"><br>
+        userName : <input type="text" name="userName" value="" id="userName"><br>
+        password :<input type="password" name="password" value="" id="password"> <br>
+
+        <button type="submit" name="submit" onclick=" return validate()" >Submit</button>
+
+    </fieldset>
+</form>
